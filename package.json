@@ -13,6 +13,7 @@
     "dev2": "babel ./script/main2.js -o ./bundle/bundle2.js -w",
     "dev3": "babel ./script/main3.js -o ./bundle/bundle3.js -w",
     "dev4": "babel ./script/main4.js -o ./bundle/bundle4.js -w",
-    "dev5": "babel ./script/main5.js -o ./bundle/bundle5.js -w"
+    "dev5": "babel ./script/main5.js -o ./bundle/bundle5.js -w",
+    "dev6": "babel ./script/main6.js -o ./bundle/bundle6.js -w"
   }
 }
