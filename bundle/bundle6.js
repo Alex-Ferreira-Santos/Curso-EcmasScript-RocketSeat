@@ -7,7 +7,8 @@ var usuario = {
     cidade: "Rio",
     Estado: "Rio"
   }
-};
+}; // desestrutura o objeto para ser mais rapido a chamada de um item do objeto
+
 var nome = usuario.nome,
     idade = usuario.idade,
     cidade = usuario.endereco.cidade;

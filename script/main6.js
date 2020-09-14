@@ -6,8 +6,8 @@ const usuario = {
         Estado:"Rio"
     },
 }
-
-const { nome,idade, endereco: {cidade} } = usuario
+// desestrutura o objeto para ser mais rapido a chamada de um item do objeto
+const { nome, idade, endereco: {cidade} } = usuario 
 
 console.log(nome)
 console.log(idade)
