@@ -16,6 +16,8 @@
     "dev4": "babel ./script/main4.js -o ./bundle/bundle4.js -w",
     "dev5": "babel ./script/main5.js -o ./bundle/bundle5.js -w",
     "dev6": "babel ./script/main6.js -o ./bundle/bundle6.js -w",
-    "dev7": "babel ./script/main7.js -o ./bundle/bundle7.js -w"
+    "dev7": "babel ./script/main7.js -o ./bundle/bundle7.js -w",
+    "dev8": "babel ./script/main8.js -o ./bundle/bundle8.js -w",
+    "dev9": "babel ./script/main9.js -o ./bundle/bundle9.js -w"
   }
 }
