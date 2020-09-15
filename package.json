@@ -20,6 +20,7 @@
     "dev8": "babel ./script/main8.js -o ./bundle/bundle8.js -w",
     "dev9": "babel ./script/main9.js -o ./bundle/bundle9.js -w",
     "exercicio1": "babel ./exercicios/js/exercicio1.js -o ./exercicios/bundle/bundle1.js -w",
-    "exercicio2": "babel ./exercicios/js/exercicio2.js -o ./exercicios/bundle/bundle2.js -w"
+    "exercicio2": "babel ./exercicios/js/exercicio2.js -o ./exercicios/bundle/bundle2.js -w",
+    "exercicio3": "babel ./exercicios/js/exercicio3.js -o ./exercicios/bundle/bundle3.js -w"
   }
 }
