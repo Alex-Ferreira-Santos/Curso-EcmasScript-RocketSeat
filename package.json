@@ -10,10 +10,11 @@
     "@babel/preset-env": "^7.11.5",
     "babel-loader": "8.0.0-beta.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "webpack --mode=development -w",
+    "dev": "webpack-dev-server --mode=development",
     "dev1": "babel ./script/main1.js -o ./bundle/bundle1.js -w",
     "dev2": "babel ./script/main2.js -o ./bundle/bundle2.js -w",
     "dev3": "babel ./script/main3.js -o ./bundle/bundle3.js -w",
