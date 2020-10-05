@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const minhaPromise = () => new Promise((resolve,reject)=>
 setTimeout(() => { resolve("OK") },2000))
 
@@ -14,3 +16,17 @@ const executaPromise = async () => {
 }
 
 executaPromise()
+
+class Api{
+    static async getUserInfo(username){
+        try{
+            const response = await axios.get(`https://api.github.com/users/${username}`)
+            console.log(response)
+        }catch(err){
+            console.warn("Erro na API")
+        }
+        
+    }
+}
+
+Api.getUserInfo('diego3g')

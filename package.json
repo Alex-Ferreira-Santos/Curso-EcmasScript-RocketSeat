@@ -33,5 +33,8 @@
     "exercicio5": "babel ./exercicios/js/exercicio5.js -o ./exercicios/bundle/bundle5.js -w",
     "exercicio6": "babel ./exercicios/js/exercicio6.js -o ./exercicios/bundle/bundle6.js -w",
     "exercicio7": "babel ./exercicios/js/exercicio7.js -o ./exercicios/bundle/bundle7.js -w"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
   }
 }
